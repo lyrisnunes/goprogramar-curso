@@ -1,0 +1,49 @@
+.alunos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+      
+}
+
+.alunos .alunos-texto{
+    display: grid;
+    justify-items: center;
+    align-self: center;
+    gap: 20px;
+    
+
+}
+
+.alunos img{
+    border-radius: 10px;
+    
+}
+
+.introducao-part2 h1{
+    margin-bottom: 10px;
+}
+
+@media (max-width:800px){
+    .alunos h1 {
+        font-size: 1.5rem;
+    }
+
+    .alunos h2 {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (max-width:500px){
+    .alunos {
+        grid-template-columns: 1fr;
+    }
+
+}

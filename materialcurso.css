@@ -1,0 +1,51 @@
+.caixa2{
+    background-color: #121212;
+    color: aliceblue;
+}
+
+.material{
+    color: aliceblue;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding-bottom: 80px;
+    
+}
+
+.caixa2 h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.caixa2 h2{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.material-curso{
+    background-color: #1c1b3881;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width:500px){
+    .caixa2 h1{
+        font-size: 1.5rem;
+    }
+
+    .material{
+        grid-template-columns: 1fr;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+}

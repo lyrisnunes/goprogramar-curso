@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1400px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-menu a{
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block; 
+}
+
+.botao-aluno{
+    background-color: #FFC46B;
+}
+
+@media (max-width:900px){
+    .header{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width:500px){
+
+    .header .logo{
+        font-size: 1.5rem;
+    }
+    .header-menu a{
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
