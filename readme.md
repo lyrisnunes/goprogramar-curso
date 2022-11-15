@@ -23,7 +23,7 @@ O projeto foi desenvolvido com as seguintes tecnologias
 ## 👩🏽‍💻 Acesse o projeto
 
 <h3>
-     <a href="https://github.com/lyrisnunes/Goprogramar-Curso-EAD.git">- Veja o projeto</a>
+     <a href="https://lyrisnunes.github.io/goprogramar-curso/">- Veja o projeto</a>
 </h3>
 
 ---
